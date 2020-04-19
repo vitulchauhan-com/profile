@@ -1,0 +1,56 @@
+
+<html>   
+   <head>
+      <title>Form Validation</title>      
+
+	  <script src="script.js"></script>
+        
+      
+   </head>
+   
+   <body>
+      <form action = "script.js" name = "myForm" onsubmit = "return(validate());">
+         <table cellspacing = "2" cellpadding = "2" border = "1">
+            
+            <tr>
+               <td align = "right">Name</td>
+               <td><input type = "text" name = "Name" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">Roll No</td>
+               <td><input type = "number" name = "rollno" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">Email</td>
+               <td><input type = "mail" name = "mail" /></td>
+            </tr>
+			
+			 <tr>
+               <td align = "right">Password</td>
+               <td><input type = "password" name = "password" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">Course</td>
+               <td>
+                  <select name = "Course">
+                     <option value = "-1" selected>[choose yours]</option>
+                     <option value = "1">B.tech</option>
+                     <option value = "2">BCA</option>
+                     <option value = "3">B.Com</option>
+					 <option value = "4">BBA</option>
+                  </select>
+               </td>
+            </tr>
+            
+            <tr>
+               <td align = "right"></td>
+               <td><input type = "submit" value = "Submit" /></td>
+            </tr>
+            
+         </table>
+      </form>      
+   </body>
+</html>
